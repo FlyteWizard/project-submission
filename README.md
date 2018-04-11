@@ -70,7 +70,7 @@ In your route directory for the project, create a copy of `.env.example` and ren
 REACT_APP_FIREBASE_API_KEY=1234asdf
 ```
 
-Lastly, head over to `Develop > Database > Rules`.
+Now, head over to `Develop > Database > Rules`.
 
 Make sure the rules look like the following:
 
@@ -82,6 +82,10 @@ Make sure the rules look like the following:
   }
 }
 ```
+
+Lastly, set up Google Auth for the login. Go to `Develop > Authentication > Connection Method`.
+
+1. Activate Google for login.
 
 ### Run the App
 
