@@ -1,0 +1,92 @@
+/* Import Bootstrap */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+/* Import Icon Pack - Font Awesome */
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+/* Import Custom Font - Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+/* COLOURS
+dark-gray: #424B54
+white: #FFFFFF
+black: #000000
+copper: #9B6A6C
+violet: #BE95C4
+pink: #E0B1CB
+*/
+
+.header-logo {
+  margin-right: 1em;
+}
+
+.bg-pink {
+  background-color: #FFFFFF;
+  border-bottom: .1em solid #E0B1CB;
+}
+
+.navbar-brand {
+  color: #424B54!important;
+}
+
+.btn-dark {
+  background-color: #424B54;
+  border-color: #424B54;
+  margin: 0 0 0 1em;
+}
+
+.add-item {
+  justify-content: center;
+  margin-top: 4em;
+}
+
+label {
+  color: #424B54;
+}
+
+.display-item {
+  margin: 2em 0;
+}
+
+.project {
+  border: 1px solid #9B6A6C;
+  border-radius: .4em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.item-link {
+  color: #BE95C4;
+}
+
+.item-link:hover {
+  color: #BE95C4;
+  text-decoration: line-through;
+}
+
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.user-profile {
+  position: fixed;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  z-index: 99;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  max-width: 60%;
+}
+
+.message {
+  text-align: center;
+  padding: 3em 0;
+}
+
+@media (max-width: 767px) {
+  .btn-dark {
+    margin: 0 0 0 -5px;
+  }
+}
