@@ -15,7 +15,6 @@ class App extends Component {
       items: [],
       user: null
     }
-    // userName: '',
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.login = this.login.bind(this);
@@ -64,7 +63,6 @@ class App extends Component {
       liveLink: '',
       projectName: ''
     });
-    // userName: ''
   }
 
   removeItem(itemId) {
@@ -113,10 +111,10 @@ class App extends Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="https://github.com/flytewizard"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i> Github</a>
+                  <a className="nav-link" href="https://github.com/FlyteWizard/project-submission"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i> Github</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="https://github.com/flytewizard"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i> Documentation</a>
+                  <a className="nav-link" href="https://github.com/FlyteWizard/project-submission"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i> Documentation</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/"><i className="far fa-user"><span className="sr-only">Person Icon</span></i> About</a>
