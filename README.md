@@ -16,7 +16,7 @@ React.js Web App for CSC 130 - Spring 2018
 
 ## Links 🔗
 
-* [Live Demo]()
+* [Live Demo](https://project-submission-dominique.herokuapp.com/)
 * [Report]()
 
 ## Run This Locally! 🚀
@@ -96,3 +96,39 @@ npm start
 ```
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
+
+### Host with Heroku
+
+Head over to https://dashboard.heroku.com/apps and log into your account. 
+
+1. Create a new app (Name it and Click create app)
+2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+3. Log into Heroku through the command line.
+
+```bash
+heroku login
+```
+
+4. Create a new Git repository
+
+```bash
+cd my-project/
+heroku git:remote -a app-name
+```
+
+5. Deploy your application
+
+```bash
+git add .
+git commit -am "make it better"
+git push heroku master
+```
+
+Head over to https://console.firebase.google.com/ and log into your account.
+
+1. Go to `Develop > Authentication > Connection Method`
+2. Scroll to the bottom to `Authorized Domains`
+3. Click `Add a Domain`
+4. Add `my-app-name.herokuapp.com`
+
+It will take awhile for the new domain to be authorized. After it is authorized, you will be able to login using Google Authentication on the heroku hosted app.
