@@ -89,7 +89,7 @@ Lastly, set up Google Auth for the login. Go to `Develop > Authentication > Conn
 
 ### Run the App
 
-Now that everythin is setup, you can run the app locally.
+Now that everything is setup, you can run the app locally.
 
 ```bash
 npm start
