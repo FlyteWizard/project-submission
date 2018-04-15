@@ -97,7 +97,7 @@ npm start
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
 
-### Host with Heroku
+## Host with Heroku
 
 Head over to https://dashboard.heroku.com/apps and log into your account. 
 
