@@ -8,6 +8,7 @@ React.js Web App for CSC 130 - Spring 2018
 * [Firebase](https://firebase.google.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
+* [Heroku](https://heroku.com/)
 
 ## Databases 👩🏻‍💻
 
@@ -89,7 +90,7 @@ Lastly, set up Google Auth for the login. Go to `Develop > Authentication > Conn
 
 ### Run the App
 
-Now that everythin is setup, you can run the app locally.
+Now that everything is setup, you can run the app locally.
 
 ```bash
 npm start
