@@ -97,7 +97,7 @@ npm start
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
 
-## Host with Firebase
+## Host with Firebase 🤹🏻‍♂️
 
 1. Install the Firebae CLI
 
@@ -117,7 +117,7 @@ firebase login
 npm run build
 ```
 
-4. Initialize the repository. 
+4. Initialize the repository.
 
 ```bash
 firebase init
@@ -129,7 +129,7 @@ firebase init
 * Type Y for single page app.
 * Type N for overwriting build/index.html
 
-5. Deploy your site. 
+5. Deploy your site.
 
 ```bash
 firebase deploy
