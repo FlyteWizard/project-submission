@@ -16,7 +16,7 @@ React.js Web App for CSC 130 - Spring 2018
 
 ## Links 🔗
 
-* [Live Demo]()
+* [Live Demo](https://project-submission.firebaseapp.com/)
 * [Report]()
 
 ## Run This Locally! 🚀
@@ -96,3 +96,41 @@ npm start
 ```
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
+
+## Host with Firebase
+
+1. Install the Firebae CLI
+
+```bash
+npm install -g firebase-tools
+```
+
+2. Log into Firebase through the command line.
+
+```bash
+firebase login
+```
+
+3. Build your React.js application.
+
+```bash
+npm run build
+```
+
+4. Initialize the repository. 
+
+```bash
+firebase init
+```
+
+* Select Database and Hosting
+* Use `database.rules.json` for Database Rules
+* Use `build` as the public directory
+* Type Y for single page app.
+* Type N for overwriting build/index.html
+
+5. Deploy your site. 
+
+```bash
+firebase deploy
+```
