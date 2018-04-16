@@ -96,3 +96,13 @@ npm start
 ```
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
+
+## Resources 📞
+
+* https://stackoverflow.com/questions/49483753/firebase-login-popup-closes-automatically-on-heroku (I was able to get my app to run on heroku thanks to this answer.)
+* https://www.codementor.io/yurio/all-you-need-is-react-firebase-4v7g9p4kf (I was able to host this on firebase hosting, when I figured out I needed to build my app manually.)
+* https://firebase.google.com/docs/hosting/?authuser=0 (Instructions on hosting on firebase)
+* https://firebase.google.com/docs/cli/?authuser=0 (Firebase CLI Refenrece)
+* https://firebase.google.com/docs/hosting/deploying (Firebase Deply Your Site)
+* https://getbootstrap.com/docs/4.0/getting-started/introduction/ (Bootstrap Documents)
+* https://fontawesome.com/ (Fontawesome Documents)
