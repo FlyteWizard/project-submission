@@ -106,3 +106,4 @@ The application should open in a new tab in your browser, but if it doesn't go t
 * https://firebase.google.com/docs/hosting/deploying (Firebase Deply Your Site)
 * https://getbootstrap.com/docs/4.0/getting-started/introduction/ (Bootstrap Documents)
 * https://fontawesome.com/ (Fontawesome Documents)
+* https://css-tricks.com/intro-firebase-react/ (Firebase and React)
