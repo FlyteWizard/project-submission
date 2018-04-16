@@ -145,7 +145,7 @@ class App extends Component {
                   </li>
                   :
                   <li className="nav-item">
-                    <button className="btn btn-dark" onClick={this.login}><i className="far fa-user"><span className="sr-only">Person Icon</span></i>Log In</button>
+                    <button className="btn btn-dark" onClick={this.login}><i className="far fa-user"><span className="sr-only">Person Icon</span></i> Log In</button>
                   </li>
                 }
               </ul>
