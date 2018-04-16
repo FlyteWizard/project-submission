@@ -100,7 +100,7 @@ The application should open in a new tab in your browser, but if it doesn't go t
 
 ## Host with Heroku 🤹🏻‍♂️
 
-Head over to https://dashboard.heroku.com/apps and log into your account. 
+Head over to https://dashboard.heroku.com/apps and log into your account.
 
 1. Create a new app (Name it and Click create app)
 2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
@@ -133,3 +133,14 @@ Head over to https://console.firebase.google.com/ and log into your account.
 4. Add `my-app-name.herokuapp.com`
 
 It will take awhile for the new domain to be authorized. After it is authorized, you will be able to login using Google Authentication on the heroku hosted app.
+
+## Resources 📞
+
+* https://stackoverflow.com/questions/49483753/firebase-login-popup-closes-automatically-on-heroku (I was able to get my app to run on heroku thanks to this answer.)
+* https://www.codementor.io/yurio/all-you-need-is-react-firebase-4v7g9p4kf (I was able to host this on firebase hosting, when I figured out I needed to build my app manually.)
+* https://firebase.google.com/docs/hosting/?authuser=0 (Instructions on hosting on firebase)
+* https://firebase.google.com/docs/cli/?authuser=0 (Firebase CLI Refenrece)
+* https://firebase.google.com/docs/hosting/deploying (Firebase Deply Your Site)
+* https://getbootstrap.com/docs/4.0/getting-started/introduction/ (Bootstrap Documents)
+* https://fontawesome.com/ (Fontawesome Documents)
+* https://css-tricks.com/intro-firebase-react/ (Firebase and React)

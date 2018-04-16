@@ -14,58 +14,61 @@ violet: #BE95C4
 pink: #E0B1CB
 */
 
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* Header */
 .header-logo {
   margin-right: 1em;
 }
-
 .bg-pink {
   background-color: #FFFFFF;
   border-bottom: .1em solid #E0B1CB;
 }
-
 .navbar-brand {
   color: #424B54!important;
 }
-
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
 .btn-dark {
   background-color: #424B54;
   border-color: #424B54;
   margin: 0 0 0 1em;
 }
 
+/* Submission Form */
 .add-item {
   justify-content: center;
   margin-top: 4em;
 }
-
 label {
   color: #424B54;
 }
 
+/* Display Items */
 .display-item {
   margin: 2em 0;
 }
-
 .project {
   border: 1px solid #9B6A6C;
   border-radius: .4em;
   padding: 1em;
   margin: 1em 0;
 }
-
 .item-link {
   color: #BE95C4;
 }
-
 .item-link:hover {
   color: #BE95C4;
   text-decoration: line-through;
 }
 
-.collapse.navbar-collapse {
-  justify-content: flex-end;
-}
-
+/* Profile Image */
 .user-profile {
   position: fixed;
   bottom: -20px;
@@ -74,17 +77,31 @@ label {
   height: 100px;
   z-index: 99;
 }
-
 .user-profile img {
   border-radius: 50%;
   max-width: 60%;
 }
 
+/* Login Message */
 .message {
   text-align: center;
   padding: 3em 0;
 }
 
+/* Footer */
+footer {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+footer h2 {
+  color:  #E0B1CB;
+}
+footer p {
+  text-indent: 20px;
+}
+
+/* Media Queries */
 @media (max-width: 767px) {
   .btn-dark {
     margin: 0 0 0 -5px;
