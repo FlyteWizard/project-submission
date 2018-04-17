@@ -135,7 +135,7 @@ class App extends Component {
                   <a className="nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/project-submission"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i> Github</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/project-submission"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i> Documentation</a>
+                  <a className="nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/project-submission/blob/master/report/CSC130-Project2-V00832004.pdf"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i> Documentation</a>
                 </li>
                 {/* If user is logged in they see logout */}
                 {/* If user is logged out they see login */}
