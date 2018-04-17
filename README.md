@@ -16,12 +16,7 @@ React.js Web App for CSC 130 - Spring 2018
 
 ## Links 🔗
 
-<<<<<<< HEAD
 * [Live Demo](https://project-submission.firebaseapp.com/)
-=======
-* [Live Demo](http://project-submission.dominiquecharlebois.com)
-* [Report](/report/CSC130-Project2-V00832004.pdf)
->>>>>>> master
 
 ## Run This Locally! 🚀
 
@@ -101,7 +96,6 @@ npm start
 
 The application should open in a new tab in your browser, but if it doesn't go to [http://localhost:3000/](http://localhost:3000/).
 
-<<<<<<< HEAD
 ## Host with Firebase 🤹🏻‍♂️
 
 1. Install the Firebae CLI
@@ -141,11 +135,7 @@ firebase deploy
 ```
 
 ## Resources 📞
- 
-=======
-## Resources 📞
 
->>>>>>> master
 * https://stackoverflow.com/questions/49483753/firebase-login-popup-closes-automatically-on-heroku (I was able to get my app to run on heroku thanks to this answer.)
 * https://www.codementor.io/yurio/all-you-need-is-react-firebase-4v7g9p4kf (I was able to host this on firebase hosting, when I figured out I needed to build my app manually.)
 * https://firebase.google.com/docs/hosting/?authuser=0 (Instructions on hosting on firebase)
