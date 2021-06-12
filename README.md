@@ -16,7 +16,6 @@ React.js Web App for CSC 130 - Spring 2018
 
 ## Links 🔗
 
-* [Live Demo](http://project-submission.dominiquecharlebois.com)
 * [Report](/report/CSC130-Project2-V00832004.pdf)
 
 ## Run This Locally! 🚀
